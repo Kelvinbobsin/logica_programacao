@@ -1,12 +1,15 @@
 // Condicional de Escolha
 
-let tamanho = "pequeno"
+let tamanho = "grande"
 switch (tamanho) {
     case "pequeno":
         console.log('2 biscoitos')
         break;
     case "medio":
         console.log('4 biscoitos')
+        break;
+        case "grande":
+        console.log('6 biscoitos')
         break;
     default:
         console.log('Descubra o tamanho do seu Pet!')
